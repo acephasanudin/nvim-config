@@ -23,7 +23,12 @@ function CustomColor(color)
     hl(0, "NormalNC", { bg = "none" })
     hl(0, "NormalSB", { bg = "none" })
     hl(0, "ColorColumn", { bg = "none" })
+    hl(0, "CursorLine", { bg = "none" })
     hl(0, "StatusLine", { bg = "none" })
+
+    hl(0, "LineNr", { bg = "none" })
+    hl(0, "SignColumn", { bg = "none" })
+
 end
 
 CustomColor()
